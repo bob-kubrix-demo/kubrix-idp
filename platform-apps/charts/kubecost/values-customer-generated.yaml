@@ -1,0 +1,8 @@
+cost-analyzer:
+  ingress:
+    hosts:
+      - kubecost.suxess.demo-peaknetworks.com
+    tls:
+      - secretName: kubecost-server-tls
+        hosts:
+        - kubecost.suxess.demo-peaknetworks.com

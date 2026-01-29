@@ -1,0 +1,10 @@
+argo-cd:
+  global:
+    domain: argocd.suxess.demo-peaknetworks.com
+
+  server:
+    ingress:
+      extraTls:
+        - hosts:
+          - argocd.suxess.demo-peaknetworks.com
+          secretName: argocd-server-tls

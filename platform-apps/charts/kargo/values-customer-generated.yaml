@@ -1,0 +1,6 @@
+kargo:
+  api:
+    host: kargo.suxess.demo-peaknetworks.com
+    argocd:
+      urls:
+        "": https://argocd.suxess.demo-peaknetworks.com

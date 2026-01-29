@@ -1,0 +1,10 @@
+vault:
+  server:
+    ingress:
+      hosts:
+        - host: vault.suxess.demo-peaknetworks.com
+          paths: []
+      tls: 
+        - secretName: vault-server-tls
+          hosts:
+            - vault.suxess.demo-peaknetworks.com

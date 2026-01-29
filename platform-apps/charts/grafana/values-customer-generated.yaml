@@ -1,0 +1,10 @@
+grafana:
+  grafana.ini:
+    server:
+      root_url: "https://grafana.suxess.demo-peaknetworks.com"
+  ingress:
+    hosts: [grafana.suxess.demo-peaknetworks.com]
+    tls:
+      - secretName: grafana-server-tls
+        hosts:
+        - grafana.suxess.demo-peaknetworks.com

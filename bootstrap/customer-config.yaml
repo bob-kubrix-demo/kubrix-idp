@@ -1,0 +1,13 @@
+clusterType: k8s
+cloudProvider: on-prem
+dnsProvider: none
+certManagerDnsProvider: none
+tShirtSize: small
+securityStrict: false
+haEnabled: false
+domain: suxess.demo-peaknetworks.com
+gitRepo: https://github.com/bob-kubrix-demo/kubrix-idp
+gitRepoOrg: bob-kubrix-demo
+gitRepoName: kubrix-idp
+gitUser: bobtechinsider
+metalLbIp: 10.202.127.220

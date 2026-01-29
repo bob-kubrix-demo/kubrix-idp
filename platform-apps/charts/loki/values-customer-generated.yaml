@@ -1,0 +1,12 @@
+loki:
+  gateway:
+    ingress:
+      hosts:
+        - host: logs-monitoring.suxess.demo-peaknetworks.com
+          paths:
+            - path: /
+              pathType: Prefix
+      tls:
+        - secretName: loki-gateway-tls
+          hosts:
+            - logs-monitoring.suxess.demo-peaknetworks.com

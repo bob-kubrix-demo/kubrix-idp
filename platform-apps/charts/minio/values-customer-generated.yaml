@@ -1,0 +1,15 @@
+minio:
+  consoleIngress:
+    hosts:
+      - minio-console.suxess.demo-peaknetworks.com
+    tls: 
+      - secretName: minio-console-tls
+        hosts:
+          - minio-console.suxess.demo-peaknetworks.com
+  ingress:
+    hosts:
+      - minio.suxess.demo-peaknetworks.com
+    tls: 
+      - secretName: minio-server-tls
+        hosts:
+          - minio.suxess.demo-peaknetworks.com
